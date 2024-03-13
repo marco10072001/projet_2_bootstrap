@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 129, 86);
+  }
+  /* carousel */
+  
+  #carouselExampleCaptions{
+    width: 160vh;
+    margin: auto;
+  }
+  
+  /*gride*/
+  .container{
+    width: 160vh;
+    height: 160px;
+    border: 1px black solid;
+    border-radius: 10%;
+  }
+  .container .row .col{
+    margin-left: auto;
+      margin-right: auto;
+      padding: 15px;
+      width: 120px;
+  }
+  #grid{
+    background-color: beige;
+    width: 300vh;
+    height: 10%;
+  }
+  #grid img{
+    width: 60%;
+    height: auto;
+    margin: 30px;
+  }
+  #grid h3{
+    text-align: center;
+    size: 2px;
+  }
+  .images_card{
+    width: 100px;
+    height: 100px;
+    }
+  
+  
+  
+  
+  
+  
+  
+  /* start session footer*/
+  .titre h2{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 800;
+    text-shadow: 0px px 1px black;
+  }
+  .titre h2 span{
+    color: #ffa500;
+  }
+  /* end session footer*/
+  
