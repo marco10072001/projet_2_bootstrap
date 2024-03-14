@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: rgb(247, 129, 86);
+  background-color:rgb(219, 187, 146)
 }
 /* carousel */
 
@@ -12,35 +12,41 @@ body{
 
 /*gride*/
 .container{
-  width: 160vh;
-  height: 160px;
   border: 1px black solid;
   border-radius: 10%;
+  padding: 40px 10px;
 }
-.container .row .col{
-  margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
-    width: 120px;
+.grid_line{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-#grid{
-  background-color: beige;
-  width: 300vh;
-  height: 10%;
+.classgrid{
+background-color: beige;
+border: 1px black solid;
+  border-radius: 10%;
+  padding: 40px 10px;
 }
-#grid img{
-  width: 60%;
-  height: auto;
-  margin: 30px;
-}
-#grid h3{
+
+h3{
   text-align: center;
-  size: 2px;
+  font-size: 15px;
+}
+.images_card{
+width: 100px;
+height: 100px;
+}
+.image_info{
+  height: 100%;
+  width: 100%;
 }
 
 
+/*start session offres*/
 
 
+/* end session offres*/
 
 
 
