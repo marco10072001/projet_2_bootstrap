@@ -5,8 +5,9 @@ body{
 /* carousel */
 
 #carouselExampleCaptions{
-  width: 160vh;
-  margin: auto;
+  width: 75%;
+  height: 100%;
+  margin: 0 110px;
 }
 
 /*gride*/
@@ -20,6 +21,8 @@ body{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 0 60px;
+  padding: 0 10px;
 }
 .classgrid{
 background-color: beige;
@@ -67,6 +70,7 @@ height: 100px;
 .container_produit img{
 width: 55%;
 padding: 20px 20px;
+margin: 0 90px;
 }
 /* end session produits*/
 
@@ -81,17 +85,15 @@ padding: 20px 20px;
 /* session promo*/
 .container_promo{
   padding: 40px 40px 40px;
+  background-color: darkslategrey;
 }
 .container_promo img{
-  display: flex;
-  justify-content: center;
-}
-img{
-  width: 200px;
+ padding: 40px 10px;
+ margin: 0 60px;
+ width: 70%;
 }
 /*end session promo*/
-
-
+ 
 
 
 /* start session footer*/
